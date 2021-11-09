@@ -1,6 +1,14 @@
+import { CssBaseline } from '@mui/material';
+import Header from './components/header';
+import MobileMenu from './components/mobileMenu';
+
 function App() {
   return (
-    <h1>Refidas Fashion glitz</h1>
+    <>
+      <CssBaseline />
+      <Header />
+      <MobileMenu />
+    </>
   );
 }
 
